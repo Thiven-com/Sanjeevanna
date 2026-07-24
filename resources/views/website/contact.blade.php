@@ -23,6 +23,34 @@
                     means of our contact form.</div>
             </div>
 
+
+
+            @if(session('success'))
+                <div class="success-alert"
+                    style="background:#d4edda;
+                                                                                                                                            color:#155724;
+                                                                                                                                            border:1px solid #c3e6cb;
+                                                                                                                                            padding:15px 20px;
+                                                                                                                                            border-radius:8px;
+                                                                                                                                            margin-bottom:20px;
+                                                                                                                                            display:flex;
+                                                                                                                                            justify-content:space-between;
+                                                                                                                                            align-items:center;
+                                                                                                                                            font-weight:600;">
+
+                    <span>✅ {{ session('success') }}</span>
+
+                    <button type="button" onclick="this.parentElement.remove();"
+                        style="background:none;
+                                                                                                                                                   border:none;
+                                                                                                                                                   font-size:22px;
+                                                                                                                                                   color:#155724;
+                                                                                                                                                   cursor:pointer;">
+                        &times;
+                    </button>
+                </div>
+            @endif
+
             <div class="row clearfix">
 
                 <!-- Form Column -->
@@ -33,7 +61,7 @@
                         <div class="contact-form">
 
                             <!--Contact Form-->
-                            <form method="post" action="sendemail.php" id="contact-form">
+                            <form method="post" action="{{ route('contact.store') }}">
                                 <div class="row clearfix">
                                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                         <input type="text" name="username" placeholder="Your name" required="">
