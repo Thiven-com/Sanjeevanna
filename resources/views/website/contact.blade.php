@@ -99,7 +99,7 @@
                             <li><strong>Office Address :</strong><br> <a
                                     href="https://maps.google.com/?q=NO+74+5th+Cross+Narayanpura+Bengaluru+560016"
                                     target="_blank">
-                                    No. 74, 5th Cross, Narayanpura, Bengaluru - 560016
+                                    No. 74, 5th Cross, Narayanpura, Bengaluru,29-Karnataka - 560016
                                 </a></li>
                         </ul>
 
@@ -109,7 +109,7 @@
                             <li><strong>Branch Address :</strong><br> <a
                                     href="https://www.google.com/maps/search/?api=1&query=No.+193/P16,+Srirama+Road,+Bidarahalli,+Bengaluru+560049"
                                     target="_blank">
-                                    No. 193/P16, Srirama Road, Bidarahalli, Bengaluru - 560049
+                                    No. 193/P16, Srirama Road, Bidarahalli, Bengaluru,29-Karnataka - 560049
                                 </a>
                             </li>
                         </ul>
@@ -133,7 +133,7 @@
     <!-- End Contact Form Section -->
 
     <!-- Map Section -->
-    <section class="map-section">
+    <!-- <section class="map-section">
         <div class="outer-container">
             <div class="map-outer">
                 <div class="map-canvas" data-zoom="12" data-lat="-37.817085" data-lng="144.955631" data-type="roadmap"
@@ -143,7 +143,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- End Map Section -->

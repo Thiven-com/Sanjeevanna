@@ -200,9 +200,9 @@
 	<!-- End Counter Section -->
 
 	<!-- Team Section -->
-	<section class="team-section style-two">
+	<!-- <section class="team-section style-two">
 		<div class="auto-container">
-			<!-- Sec Title -->
+			
 			<div class="sec-title light centered">
 				<h2>Our Expert Team</h2>
 				<div class="text">
@@ -213,7 +213,7 @@
 
 			<div class="clearfix">
 
-				<!-- Team Block -->
+				
 				<div class="team-block col-lg-3 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
@@ -226,7 +226,7 @@
 					</div>
 				</div>
 
-				<!-- Team Block -->
+				
 				<div class="team-block col-lg-3 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
@@ -239,7 +239,7 @@
 					</div>
 				</div>
 
-				<!-- Team Block -->
+				
 				<div class="team-block col-lg-3 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
@@ -252,7 +252,7 @@
 					</div>
 				</div>
 
-				<!-- Team Block -->
+				
 				<div class="team-block col-lg-3 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
@@ -268,7 +268,7 @@
 			</div>
 
 		</div>
-	</section>
+	</section> -->
 	<!-- End Team Section -->
 
 	<!-- Mission Section -->

@@ -154,7 +154,8 @@
 
                 <nav class="menu-box">
                     <div class="nav-logo"><a href="{{ route('home') }}"><img
-                                src="{{ asset('website') }}/images/sanjeevlogo (1).png" alt="Sanjeevanna and Company Enterprises" title=""></a></div>
+                                src="{{ asset('website') }}/images/sanjeevlogo (1).png"
+                                alt="Sanjeevanna and Company Enterprises" title=""></a></div>
                     <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
                     <!--Social Links-->
                     <div class="social-links">
@@ -184,16 +185,16 @@
                     <div class="row clearfix">
 
                         <!--big column-->
-                        <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="big-column col-lg-12 col-md-12 col-sm-12">
                             <div class="row clearfix">
 
                                 <!--Footer Column-->
-                                <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                                <div class="footer-column col-lg-4 col-md-6 col-sm-12">
                                     <div class="footer-widget logo-widget">
                                         <div class="logo">
                                             <a href="{{ route('home') }}"><img
                                                     src="{{ asset('website') }}/images/sanjeevlogo (1).png" alt=""></a>
-                                        </div>
+                                        </div><br>
                                         <div class="text">
                                             Sanjeevanna and Company Enterprises provides complete renovation solutions,
                                             including POP false ceiling, electrical, painting, glass, carpentry, and
@@ -209,7 +210,7 @@
                                 </div>
 
                                 <!--Footer Column-->
-                                <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                <div class="footer-column col-lg-2 col-md-6 col-sm-12">
                                     <div class="footer-widget links-widget">
                                         <h2>Quick links</h2>
                                         <div class="widget-content">
@@ -226,19 +227,67 @@
                                     </div>
                                 </div>
 
+
+                                <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                                    <div class="footer-widget links-widget">
+                                        <h2>Services</h2>
+                                        <div class="widget-content">
+                                            <ul class="list">
+                                                <li><a href="{{ route('service') }}">Carpentry Works</a></li>
+                                                <li><a href="{{ route('service') }}">Plumbing Works</a></li>
+                                                <li><a href="{{ route('service') }}">Glass Works</a></li>
+                                                <li><a href="{{ route('service') }}">Renovation</a></li>
+                                                <!-- <li><a href="#">Privacy Policy</a></li>
+                                                <li><a href="#">Terms & Conditionis</a></li>
+                                                <li><a href="#">Faq</a></li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+                                <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                                    <div class="footer-widget links-widget">
+                                        <h2>Contact Info</h2>
+                                        <div class="widget-content">
+
+                                            <ul class="list">
+
+                                                <li><a href="tel:+91 9663605853" class="contact-number">+91
+                                                        9663605853</a></li>
+                                                <li>
+                                                    <a href="https://maps.google.com/?q=NO+74+5th+Cross+Narayanpura+Bengaluru+560016"
+                                                        target="_blank">
+                                                        No. 74, 5th Cross, Narayanpura, Bengaluru, 29-Karnataka - 560016
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="mailto:sanjeevanna.co@gmail.com">
+                                                        sanjeevanna.co@gmail.com
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
                         <!--big column-->
-                        <div class="big-column col-lg-6 col-md-12 col-sm-12">
-                            <div class="row clearfix">
 
-                                <!--Footer Column-->
-                                <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+
+                        <!-- <div class="footer-column col-lg-5 col-md-6 col-sm-12">
                                     <div class="footer-widget contact-widget">
                                         <h2>Contact Info</h2>
                                         <div class="widget-content">
-                                            <a href="tel:+91 9663605853" class="contact-number">+91 9663605853</a>
+                                            <a href="tel:+91 9663605853" class="contact-number">+91
+                                                9663605853</a>
                                             <ul>
                                                 <li>
                                                     <a href="https://maps.google.com/?q=NO+74+5th+Cross+Narayanpura+Bengaluru+560016"
@@ -254,16 +303,16 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
-                                <!--Footer Column-->
-                                <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                        <!--Footer Column-->
+                        <!-- <div class="footer-column col-lg-7 col-md-6 col-sm-12">
                                     <div class="footer-widget newsletter-widget">
-                                        <h2>Newsletter</h2>
+                                        <h2>Services</h2>
                                         <div class="text">Subscribe to receive updates on our latest renovation
-                                            projects, services, and special offers.</div>
-                                        <!-- Newsletter Form -->
-                                        <!-- <div class="newsletter-form">
+                                            projects, services, and special offers.</div> -->
+                        <!-- Newsletter Form -->
+                        <!-- <div class="newsletter-form">
                                             <form method="post" action="contact.html">
                                                 <div class="form-group">
                                                     <input type="email" name="email" value=""
@@ -273,23 +322,27 @@
                                                 </div>
                                             </form>
                                         </div> -->
-                                    </div>
-                                </div>
+                        <!-- </div>
+                                </div> -->
 
-                            </div>
-                        </div>
+
 
                     </div>
                 </div>
 
                 <!--Footer Bottom-->
-                <div class="footer-bottom clearfix">
-                    <div class="pull-left">
-                        <div class="copyright">&copy; Copyright Sanjeevanna and Company Enterprises. All right reserved.
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="footer-bottom clearfix">
+                        <div class="pull-left">
+                            <div class="copyright">
+                                &copy; Copyright {{ date('Y') }} Sanjeevanna and Company Enterprises. All Rights
+                                Reserved.
+                            </div>
                         </div>
-                    </div>
-                    <div class="pull-right">
-                        <a href="tel:+91 9663605853" class="purchase">Call Now</a>
+
+                        <div class="pull-right">
+                            <a href="tel:+91 9663605853" class="purchase">Call Now</a>
+                        </div>
                     </div>
                 </div>
 
@@ -350,6 +403,20 @@
     <!--Google Map APi Key-->
     <script src="../maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
     <script src="{{ asset('website') }}/js/map-script-1.js"></script>
+
+
+
+
+    <style>
+        .main-footer .widgets-section .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .main-footer .footer-column {
+            margin-bottom: 30px;
+        }
+    </style>
 </body>
 
 </html>
