@@ -339,7 +339,6 @@
                                 Reserved.
                             </div>
                         </div>
-
                         <div class="pull-right">
                             <a href="tel:+91 9663605853" class="purchase">Call Now</a>
                         </div>
