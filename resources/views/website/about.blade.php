@@ -49,11 +49,11 @@
 
 				<!-- Image Column -->
 				<div class="image-column col-lg-4 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<div class="image">
-							<img src="{{ asset('website') }}/images/reno.png" alt="">
-						</div>
+
+					<div class="image">
+						<img src="{{ asset('website') }}/images/reno.png" alt="">
 					</div>
+
 				</div>
 
 			</div>
@@ -201,74 +201,74 @@
 
 	<!-- Team Section -->
 	<!-- <section class="team-section style-two">
-		<div class="auto-container">
-			
-			<div class="sec-title light centered">
-				<h2>Our Expert Team</h2>
-				<div class="text">
-					Our experienced professionals work together to deliver quality renovation and interior solutions with
-					precision and excellence.
-				</div>
-			</div>
+						<div class="auto-container">
 
-			<div class="clearfix">
+							<div class="sec-title light centered">
+								<h2>Our Expert Team</h2>
+								<div class="text">
+									Our experienced professionals work together to deliver quality renovation and interior solutions with
+									precision and excellence.
+								</div>
+							</div>
 
-				
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box">
-						<div class="image">
-							<img src="{{ asset('website') }}/images/engni.png" alt="">
-						</div>
-						<div class="lower-content">
-							<h3>Project Management Team</h3>
-							<div class="designation">Project Planning & Execution</div>
-						</div>
-					</div>
-				</div>
+							<div class="clearfix">
 
-				
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box">
-						<div class="image">
-							<img src="{{ asset('website') }}/images/techni.png" alt="">
-						</div>
-						<div class="lower-content">
-							<h3>Interior & Renovation Team</h3>
-							<div class="designation">Renovation & False Ceiling Experts</div>
-						</div>
-					</div>
-				</div>
 
-				
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box">
-						<div class="image">
-							<img src="{{ asset('website') }}/images/craft.png" alt="">
-						</div>
-						<div class="lower-content">
-							<h3>Technical Team</h3>
-							<div class="designation">Electrical, Plumbing & Glass Works</div>
-						</div>
-					</div>
-				</div>
+								<div class="team-block col-lg-3 col-md-6 col-sm-12">
+									<div class="inner-box">
+										<div class="image">
+											<img src="{{ asset('website') }}/images/engni.png" alt="">
+										</div>
+										<div class="lower-content">
+											<h3>Project Management Team</h3>
+											<div class="designation">Project Planning & Execution</div>
+										</div>
+									</div>
+								</div>
 
-				
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box">
-						<div class="image">
-							<img src="{{ asset('website') }}/images/paint.png" alt="">
-						</div>
-						<div class="lower-content">
-							<h3>Finishing Team</h3>
-							<div class="designation">Painting & Carpentry Specialists</div>
-						</div>
-					</div>
-				</div>
 
-			</div>
+								<div class="team-block col-lg-3 col-md-6 col-sm-12">
+									<div class="inner-box">
+										<div class="image">
+											<img src="{{ asset('website') }}/images/techni.png" alt="">
+										</div>
+										<div class="lower-content">
+											<h3>Interior & Renovation Team</h3>
+											<div class="designation">Renovation & False Ceiling Experts</div>
+										</div>
+									</div>
+								</div>
 
-		</div>
-	</section> -->
+
+								<div class="team-block col-lg-3 col-md-6 col-sm-12">
+									<div class="inner-box">
+										<div class="image">
+											<img src="{{ asset('website') }}/images/craft.png" alt="">
+										</div>
+										<div class="lower-content">
+											<h3>Technical Team</h3>
+											<div class="designation">Electrical, Plumbing & Glass Works</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="team-block col-lg-3 col-md-6 col-sm-12">
+									<div class="inner-box">
+										<div class="image">
+											<img src="{{ asset('website') }}/images/paint.png" alt="">
+										</div>
+										<div class="lower-content">
+											<h3>Finishing Team</h3>
+											<div class="designation">Painting & Carpentry Specialists</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</section> -->
 	<!-- End Team Section -->
 
 	<!-- Mission Section -->
@@ -287,45 +287,60 @@
 
 				<!-- Content Column -->
 				<div class="content-column col-xl-9 col-lg-8 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<h2>Our Company Mission</h2>
+					<div class="inner-column" style="padding-left:35px;">
 
-						<div class="bold-text">
+						<h2 style="margin-bottom:20px;">Our Company Mission</h2>
+
+						<div class="bold-text" style="line-height:1.8;margin-bottom:25px;">
 							Our mission is to deliver reliable renovation and interior solutions with superior
-							craftsmanship, quality materials, and complete customer satisfaction.
+							craftsmanship,
+							quality materials, and complete customer satisfaction.
 						</div>
 
-						<div class="text">
+						<div class="text" style="line-height:1.9;margin-bottom:30px;">
 							At Sanjeevanna and Company Enterprises, we are committed to transforming residential, office,
 							and commercial spaces through innovative renovation solutions. From planning to project
 							completion, we focus on quality, timely execution, and attention to every detail to ensure
 							lasting results.
 						</div>
 
-						<h3>We specialize in complete renovation and interior services...</h3>
+						<h3 style="margin-bottom:25px;">
+							We specialize in complete renovation and interior services
+						</h3>
 
-						<div class="row clearfix">
-							<div class="column col-lg-6 col-md-6 col-sm-12">
-								<ul class="list-style-two">
-									<li>- POP False Ceiling Works</li>
-									<li>- Residential, Office & Commercial Renovation</li>
-									<li>- Electrical Works</li>
-									<li>- Painting Works</li>
+						<div class="row">
+
+							<div class="col-lg-6 col-md-6">
+								<ul style="list-style:none;padding:0;margin:0;line-height:2.4;">
+									<li><i class="fa fa-check-circle" style="color:#d4a14a;margin-right:10px;"></i>POP False
+										Ceiling Works</li>
+									<li><i class="fa fa-check-circle"
+											style="color:#d4a14a;margin-right:10px;"></i>Residential, Office & Commercial
+										Renovation</li>
+									<li><i class="fa fa-check-circle"
+											style="color:#d4a14a;margin-right:10px;"></i>Electrical Works</li>
+									<li><i class="fa fa-check-circle" style="color:#d4a14a;margin-right:10px;"></i>Painting
+										Works</li>
 								</ul>
 							</div>
 
-							<div class="column col-lg-6 col-md-6 col-sm-12">
-								<ul class="list-style-two">
-									<li>- Glass Works</li>
-									<li>- Carpentry Works</li>
-									<li>- Plumbing Works</li>
-									<li>- End-to-End Project Execution</li>
+							<div class="col-lg-6 col-md-6">
+								<ul style="list-style:none;padding:0;margin:0;line-height:2.4;">
+									<li><i class="fa fa-check-circle" style="color:#d4a14a;margin-right:10px;"></i>Glass
+										Works</li>
+									<li><i class="fa fa-check-circle" style="color:#d4a14a;margin-right:10px;"></i>Carpentry
+										Works</li>
+									<li><i class="fa fa-check-circle" style="color:#d4a14a;margin-right:10px;"></i>Plumbing
+										Works</li>
+									<li><i class="fa fa-check-circle"
+											style="color:#d4a14a;margin-right:10px;"></i>End-to-End Project Execution</li>
 								</ul>
 							</div>
+
 						</div>
+
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</section>
@@ -339,9 +354,102 @@
 				We transform residential, office, and commercial spaces with quality renovation, POP false ceiling,
 				electrical, painting, glass, carpentry, and plumbing solutions.
 			</div>
-			<a href="{{ route('contact') }}"  class="theme-btn btn-style-two"><span class="txt">contact us</span></a>
+			<a href="{{ route('contact') }}" class="theme-btn btn-style-two"><span class="txt">contact us</span></a>
 		</div>
 	</section>
 	<!-- End Call To Action Section -->
+
+
+
+	<style>
+		.about-section .inner-column {
+			padding-right: 40px;
+		}
+
+		.about-section .content-column,
+		.about-section .image-column {
+			display: flex;
+			align-items: center;
+		}
+
+		.about-section .content-column .inner-column {
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		.about-section .image-column .image {
+			text-align: center;
+		}
+
+		.about-section .image-column img {
+			width: 100%;
+			max-width: 420px;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+		}
+
+		.about-section h2 {
+			margin-bottom: 20px;
+		}
+
+		.about-section .bold-text {
+			margin-bottom: 20px;
+			line-height: 1.6;
+		}
+
+		.about-section .text p {
+			margin-bottom: 20px;
+			line-height: 1.9;
+		}
+
+		@media (max-width:991px) {
+			.about-section .inner-column {
+				padding-right: 0;
+				margin-bottom: 40px;
+			}
+
+			.about-section .content-column,
+			.about-section .image-column {
+				display: block;
+			}
+
+			.about-section .image-column {
+				text-align: center;
+			}
+		}
+
+
+
+
+
+		.mission-section .image-column,
+		.mission-section .content-column {
+			display: flex;
+			align-items: center;
+		}
+
+		.mission-section .image-column img {
+			width: 100%;
+			max-width: 380px;
+			display: block;
+			margin: auto;
+		}
+
+		@media (max-width:991px) {
+
+			.mission-section .image-column,
+			.mission-section .content-column {
+				display: block;
+			}
+
+			.mission-section .inner-column {
+				padding-left: 0 !important;
+				margin-top: 30px;
+			}
+		}
+	</style>
 
 @endsection

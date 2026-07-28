@@ -22,29 +22,29 @@
 	<section class="services-page-section">
 		<div class="auto-container">
 
-		@if(session('success'))
-			<div class="success-alert" style="background:#d4edda;
-											color:#155724;
-											border:1px solid #c3e6cb;
-											padding:15px 20px;
-											border-radius:8px;
-											margin-bottom:20px;
-											display:flex;
-											justify-content:space-between;
-											align-items:center;
-											font-weight:600;">
+			@if(session('success'))
+				<div class="success-alert" style="background:#d4edda;
+																							color:#155724;
+																							border:1px solid #c3e6cb;
+																							padding:15px 20px;
+																							border-radius:8px;
+																							margin-bottom:20px;
+																							display:flex;
+																							justify-content:space-between;
+																							align-items:center;
+																							font-weight:600;">
 
-				<span>✅ {{ session('success') }}</span>
+					<span>✅ {{ session('success') }}</span>
 
-				<button type="button" onclick="this.parentElement.remove();" style="background:none;
-																				   border:none;
-																			   font-size:22px;
-																			   color:#155724;
-																			   cursor:pointer;">
-					&times;
-				</button>
-			</div>
-		@endif
+					<button type="button" onclick="this.parentElement.remove();" style="background:none;
+																																   border:none;
+																															   font-size:22px;
+																															   color:#155724;
+																															   cursor:pointer;">
+						&times;
+					</button>
+				</div>
+			@endif
 			<!-- Sec Title -->
 			<div class="sec-title light centered">
 				<h2>Complete Renovation & Interior Solutions</h2>
@@ -61,7 +61,15 @@
 				<div class="service-block-three col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<a href="#"><img src="{{asset('website')}}/images/ceiling.png" alt=""></a>
+							<a href="#" style="display:block; overflow:hidden;">
+								<img src="{{ asset('website') }}/images/ceiling.png" alt="POP False Ceiling Works" style="width:100%;
+										height:263px;
+										object-fit:cover;
+										opacity:1 !important;
+										filter:brightness(100%) !important;
+										transition:transform .4s ease;
+										display:block;">
+							</a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">POP False Ceiling Works</a></h3>
@@ -79,13 +87,24 @@
 				<div class="service-block-three col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
 						<div class="image">
-							<a href="#"><img src="{{asset('website')}}/images/rocr.png" alt=""></a>
+							<a href="#" style="display:block; overflow:hidden;"><img
+									src="{{asset('website')}}/images/rocr.png" alt="" style="width:100%;
+									height:263px;
+									object-fit:cover;
+									opacity:1 !important;
+									filter:brightness(100%) !important;
+									transition:transform .4s ease;
+									display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Renovation</a></h3>
 							<div class="text">
-								Complete renovation solutions for residential, office, and commercial spaces with quality
-								craftsmanship and on-time delivery.
+								<div class="text">
+									<div class="text">
+										Complete renovation solutions for residential, office, and commercial spaces with
+										quality craftsmanship, timely execution, and on-time delivery.
+									</div>
+								</div>
 							</div>
 							<a href="javascript:void(0);" class="enquiry-now" onclick="openModal('Renovation')">Enquiry
 								Now</a>
@@ -97,7 +116,14 @@
 				<div class="service-block-three col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
 						<div class="image">
-							<a href="#"><img src="{{asset('website')}}/images/elecwor.png" alt=""></a>
+							<a href="#" style="display:block; overflow:hidden;"><img
+									src="{{asset('website')}}/images/elecwor.png" alt="" style="width:100%;
+									height:263px;
+									object-fit:cover;
+									opacity:1 !important;
+									filter:brightness(100%) !important;
+									transition:transform .4s ease;
+									display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Electrical Works</a></h3>
@@ -115,7 +141,14 @@
 				<div class="service-block-three col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<a href="#"><img src="{{asset('website')}}/images/paiwork.png" alt=""></a>
+							<a href="#" style="display:block; overflow:hidden;"><img
+									src="{{asset('website')}}/images/paiwork.png" alt="" style="width:100%;
+									height:263px;
+									object-fit:cover;
+									opacity:1 !important;
+									filter:brightness(100%) !important;
+									transition:transform .4s ease;
+									display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Painting Works</a></h3>
@@ -133,7 +166,14 @@
 				<div class="service-block-three col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
 						<div class="image">
-							<a href="#"><img src="{{asset('website')}}/images/glaswo.png" alt=""></a>
+							<a href="#" style="display:block; overflow:hidden;"><img
+									src="{{asset('website')}}/images/glaswo.png" alt="" style="width:100%;
+									height:263px;
+									object-fit:cover;
+									opacity:1 !important;
+									filter:brightness(100%) !important;
+									transition:transform .4s ease;
+									display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Glass Works</a></h3>
@@ -151,7 +191,14 @@
 				<div class="service-block-three col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
 						<div class="image">
-							<a href="#"><img src="{{asset('website')}}/images/carpwor.png" alt=""></a>
+							<a href="#" style="display:block; overflow:hidden;"><img
+									src="{{asset('website')}}/images/carpwor.png" alt="" style="width:100%;
+									height:263px;
+									object-fit:cover;
+									opacity:1 !important;
+									filter:brightness(100%) !important;
+									transition:transform .4s ease;
+									display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Carpentry Works</a></h3>
@@ -169,7 +216,14 @@
 				<div class="service-block-three col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<a href="#"><img src="{{asset('website')}}/images/plumbwor.png" alt=""></a>
+							<a href="#" style="display:block; overflow:hidden;"><img
+									src="{{asset('website')}}/images/plumbwor.png" alt="" style="width:100%;
+									height:263px;
+									object-fit:cover;
+									opacity:1 !important;
+									filter:brightness(100%) !important;
+									transition:transform .4s ease;
+									display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Plumbing Works</a></h3>
@@ -186,19 +240,19 @@
 
 				<!-- Service Block -->
 				<!-- <div class="service-block-three col-lg-4 col-md-6 col-sm-12">
-																									<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
-																										<div class="image">
-																											<a href="commercial-interior-1.html"><img
-																													src="{{asset('website')}}/images/resource/service-15-1.jpg" alt=""></a>
-																										</div>
-																										<div class="lower-content">
-																											<h3><a href="commercial-interior-1.html">False Celling Designs</a></h3>
-																											<div class="text">Override the digital divide with additional clickthroughs from DevOps.
-																												Nanotech Nology imme rsion along the information highway will close the loop.</div>
-																											<a href="commercial-interior-1.html" class="read-more">Read more</a>
-																										</div>
-																									</div>
-																								</div> -->
+																															<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
+																																<div class="image">
+																																	<a href="commercial-interior-1.html"><img
+																																			src="{{asset('website')}}/images/resource/service-15-1.jpg" alt=""></a>
+																																</div>
+																																<div class="lower-content">
+																																	<h3><a href="commercial-interior-1.html">False Celling Designs</a></h3>
+																																	<div class="text">Override the digital divide with additional clickthroughs from DevOps.
+																																		Nanotech Nology imme rsion along the information highway will close the loop.</div>
+																																	<a href="commercial-interior-1.html" class="read-more">Read more</a>
+																																</div>
+																															</div>
+																														</div> -->
 
 			</div>
 
@@ -216,13 +270,13 @@
 				<h2>Service Enquiry</h2>
 
 				<h2 id="serviceName" style="
-						display:inline-block;
-						color:#000;
-						padding:8px;
-						border-radius:6px;
-						font-size:18px;
-						font-weight:600;
-						margin:0 15px;">
+												display:inline-block;
+												color:#000;
+												padding:8px;
+												border-radius:6px;
+												font-size:18px;
+												font-weight:600;
+												margin:0 15px;">
 					Selected Service
 				</h2>
 
@@ -457,6 +511,28 @@
 				right: 15px;
 				font-size: 26px;
 			}
+		}
+	</style>
+
+	<style>
+		.service-block-three .image::before,
+		.service-block-three .image::after,
+		.service-block-three .image a::before,
+		.service-block-three .image a::after,
+		.service-block-three .overlay-box {
+			display: none !important;
+			opacity: 0 !important;
+			background: transparent !important;
+		}
+
+		.service-block-three .image img {
+			opacity: 1 !important;
+			filter: brightness(100%) !important;
+		}
+
+		.service-block-three .image img:hover {
+			transform: scale(1.05);
+			filter: brightness(100%) !important;
 		}
 	</style>
 

@@ -53,7 +53,7 @@
                         <!--Info-->
                         <div class="logo-outer">
                             <div class="logo"><a href="{{ route('home') }}"><img
-                                        src="{{ asset('website') }}/images/sanjeevlogo (1).png" alt="" title=""
+                                        src="{{ asset('website') }}/images/slogo.png" alt="" title=""
                                         style="margin-top: 10px;"></a>
                             </div>
                         </div>
@@ -74,64 +74,41 @@
 
                                 <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="{{ route('home') }}">Home</a>
-                                            <!-- <ul>
-                                                <li><a href="index-1.html">Home page 01</a></li>
-                                                <li><a href="index-2-1.html">Home page 02</a></li>
-                                                <li><a href="index-3-1.html">Home page 03</a></li>
-                                                <li><a href="index-4-1.html">Home page 04</a></li>
-                                                <li><a href="index-5-1.html">Home page 05</a></li>
-                                                <li class="dropdown"><a href="index-1.html">Header Styles</a>
-                                                    <ul>
-                                                        <li><a href="index-1.html">Header Style One</a></li>
-                                                        <li><a href="index-2-1.html">Header Style Two</a></li>
-                                                        <li><a href="index-3-1.html">Header Style Three</a></li>
-                                                        <li><a href="index-4-1.html">Header Style Four</a></li>
-                                                        <li><a href="index-5-1.html">Header Style Five</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul> -->
+                                        <li>
+                                            <a href="{{ route('home') }}"
+                                                style="{{ Request::routeIs('home') ? 'color:#c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color:#ffffff;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
+                                                onmouseover="this.style.color='#c59d5f'"
+                                                onmouseout="this.style.color='{{ Request::routeIs('home') ? '#c59d5f' : '#ffffff' }}'">
+                                                Home
+                                            </a>
                                         </li>
-                                        <li class="dropdown"><a href="{{ route('about') }}">About us</a>
 
+                                        <li>
+                                            <a href="{{ route('about') }}"
+                                                style="{{ Request::routeIs('about') ? 'color:#c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color:#ffffff;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
+                                                onmouseover="this.style.color='#c59d5f'"
+                                                onmouseout="this.style.color='{{ Request::routeIs('about') ? '#c59d5f' : '#ffffff' }}'">
+                                                About Us
+                                            </a>
                                         </li>
-                                        <li class="dropdown"><a href="{{ route('service') }}">Services</a>
-                                            <!-- <ul>
-                                                <li><a href="services-dark-1.html">Services Layout 01</a></li>
-                                                <li><a href="services-light-1.html">Services Layout 02</a></li>
-                                                <li><a href="residental-interior-1.html">Residential Interior</a></li>
-                                                <li><a href="commercial-interior-1.html">Commercial Interior</a></li>
-                                                <li><a href="office-interior-1.html">Office Design</a></li>
-                                                <li><a href="hospitality-design-1.html">Hospitality Design</a></li>
-                                                <li><a href="modern-furniture-1.html">Modern Furniture</a></li>
-                                                <li><a href="modular-kitchen-1.html">Modular Kitchen</a></li>
-                                                <li><a href="wardrobe-1.html">Wardrobe</a></li>
-                                                <li><a href="false-celling-design-1.html">False Celling Design</a></li>
-                                            </ul> -->
+
+                                        <li>
+                                            <a href="{{ route('service') }}"
+                                                style="{{ Request::routeIs('service') ? 'color:#c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color:#ffffff;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
+                                                onmouseover="this.style.color='#c59d5f'"
+                                                onmouseout="this.style.color='{{ Request::routeIs('service') ? '#c59d5f' : '#ffffff' }}'">
+                                                Services
+                                            </a>
                                         </li>
-                                        <!-- <li class="dropdown"><a href="projects-classic-1.html">Projects</a>
-                                            <ul>
-                                                <li><a href="projects-classic-1.html">Projects Classic</a></li>
-                                                <li><a href="projects-masonry-1.html">Project Masonry</a></li>
-                                                <li><a href="projects-fullwidth-1.html">Project Full Screen</a></li>
-                                            </ul>
+
+                                        <li>
+                                            <a href="{{ route('contact') }}"
+                                                style="{{ Request::routeIs('contact') ? 'color:#c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color:#ffffff;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
+                                                onmouseover="this.style.color='#c59d5f'"
+                                                onmouseout="this.style.color='{{ Request::routeIs('contact') ? '#c59d5f' : '#ffffff' }}'">
+                                                Contact
+                                            </a>
                                         </li>
-                                        <li class="dropdown"><a href="blog-1.html">Blog</a>
-                                            <ul>
-                                                <li><a href="blog-1.html">Blog</a></li>
-                                                <li><a href="blog-2-1.html">blog 2 column</a></li>
-                                                <li><a href="blog-detail-1.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="shop-1.html">Shop</a>
-                                            <ul>
-                                                <li><a href="shop-1.html">Main shop page</a></li>
-                                                <li><a href="product-detail-1.html">Product Detail Page</a></li>
-                                                <li><a href="cart-page-1.html">Cart Page</a></li>
-                                                <li><a href="checkout-1.html">Checkout</a></li>
-                                            </ul>
-                                        </li> -->
-                                        <li><a href="{{ route('contact') }}">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>
