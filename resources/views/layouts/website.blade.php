@@ -240,7 +240,8 @@
                                                 <li>
                                                     <a href="https://maps.google.com/?q=NO+74+5th+Cross+Narayanpura+Bengaluru+560016"
                                                         target="_blank">
-                                                        No. 74, 5th Cross, Narayanpura, Bengaluru, 29-Karnataka - 560016
+                                                        SANJEEVANNA AND COMPANY, NO 193/P16 SRIRAMA ROAD , NATUREBLISS LAYOUT , BIDARAHALLI BENGALURU 560049.<br>
+                                                        LANDMARK : OPP KARNATAKA HOUSING BOARD QTRS .
                                                     </a>
                                                 </li>
                                                 <li>

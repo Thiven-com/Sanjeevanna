@@ -28,24 +28,24 @@
             @if(session('success'))
                 <div class="success-alert"
                     style="background:#d4edda;
-                                                                                                                                            color:#155724;
-                                                                                                                                            border:1px solid #c3e6cb;
-                                                                                                                                            padding:15px 20px;
-                                                                                                                                            border-radius:8px;
-                                                                                                                                            margin-bottom:20px;
-                                                                                                                                            display:flex;
-                                                                                                                                            justify-content:space-between;
-                                                                                                                                            align-items:center;
-                                                                                                                                            font-weight:600;">
+                                                                                                                                                    color:#155724;
+                                                                                                                                                    border:1px solid #c3e6cb;
+                                                                                                                                                    padding:15px 20px;
+                                                                                                                                                    border-radius:8px;
+                                                                                                                                                    margin-bottom:20px;
+                                                                                                                                                    display:flex;
+                                                                                                                                                    justify-content:space-between;
+                                                                                                                                                    align-items:center;
+                                                                                                                                                    font-weight:600;">
 
                     <span>✅ {{ session('success') }}</span>
 
                     <button type="button" onclick="this.parentElement.remove();"
                         style="background:none;
-                                                                                                                                                   border:none;
-                                                                                                                                                   font-size:22px;
-                                                                                                                                                   color:#155724;
-                                                                                                                                                   cursor:pointer;">
+                                                                                                                                                           border:none;
+                                                                                                                                                           font-size:22px;
+                                                                                                                                                           color:#155724;
+                                                                                                                                                           cursor:pointer;">
                         &times;
                     </button>
                 </div>
@@ -99,7 +99,9 @@
                             <li><strong>Office Address :</strong><br> <a
                                     href="https://maps.google.com/?q=NO+74+5th+Cross+Narayanpura+Bengaluru+560016"
                                     target="_blank">
-                                    No. 74, 5th Cross, Narayanpura, Bengaluru,29-Karnataka - 560016
+                                    SANJEEVANNA AND COMPANY, NO 193/P16 SRIRAMA ROAD , NATUREBLISS LAYOUT , BIDARAHALLI
+                                    BENGALURU 560049.<br>
+                                    LANDMARK : OPP KARNATAKA HOUSING BOARD QTRS .
                                 </a></li>
                         </ul>
 
@@ -109,7 +111,9 @@
                             <li><strong>Branch Address :</strong><br> <a
                                     href="https://www.google.com/maps/search/?api=1&query=No.+193/P16,+Srirama+Road,+Bidarahalli,+Bengaluru+560049"
                                     target="_blank">
-                                    No. 193/P16, Srirama Road, Bidarahalli, Bengaluru,29-Karnataka - 560049
+                                    SANJEEVANNA AND COMPANY, NO 193/P16 SRIRAMA ROAD , NATUREBLISS LAYOUT , BIDARAHALLI
+                                    BENGALURU 560049 <br>
+                                    LANDMARK : OPP KARNATAKA HOUSING BOARD QTRS .
                                 </a>
                             </li>
                         </ul>
@@ -134,16 +138,16 @@
 
     <!-- Map Section -->
     <!-- <section class="map-section">
-        <div class="outer-container">
-            <div class="map-outer">
-                <div class="map-canvas" data-zoom="12" data-lat="-37.817085" data-lng="144.955631" data-type="roadmap"
-                    data-hue="#ffc400" data-title="Melbourne Australia"
-                    data-icon-path="{{ asset('website') }}/images/icons/map-marker.png"
-                    data-content="(1800) 456 7890 <br> Mon-Sat: 7.00an - 9.00pm">
+            <div class="outer-container">
+                <div class="map-outer">
+                    <div class="map-canvas" data-zoom="12" data-lat="-37.817085" data-lng="144.955631" data-type="roadmap"
+                        data-hue="#ffc400" data-title="Melbourne Australia"
+                        data-icon-path="{{ asset('website') }}/images/icons/map-marker.png"
+                        data-content="(1800) 456 7890 <br> Mon-Sat: 7.00an - 9.00pm">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section> -->
+        </section> -->
 
 
     <!-- End Map Section -->
