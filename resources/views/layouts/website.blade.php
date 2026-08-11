@@ -53,7 +53,7 @@
                         <!--Info-->
                         <div class="logo-outer">
                             <div class="logo"><a href="{{ route('home') }}"><img
-                                        src="{{ asset('website') }}/images/slogo.png" alt="" title=""
+                                        src="{{ asset('website') }}/images/sanjeevlogo (1).png" alt="" title=""
                                         style="margin-top: 10px;"></a>
                             </div>
                         </div>
@@ -115,9 +115,9 @@
                             <!-- Main Menu End-->
 
                             <!-- Outer Box -->
-                            <div class="outer-box clearfix">
+                            <!-- <div class="outer-box clearfix">
                                 <div class="search-box-btn"><span class="icon flaticon-magnifying-glass-1"></span></div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
                                         </div><br>
                                         <div class="text">
                                             Sanjeevanna and Company Enterprises provides complete renovation solutions,
-                                            including POP false ceiling, electrical, painting, glass, carpentry, and
+                                            including POP false ceiling, electrical, painting, glass, furniture, and
                                             plumbing works for residential, office, and commercial spaces.
                                         </div>
                                         <ul class="social-icons">
@@ -210,7 +210,9 @@
                                         <h2>Services</h2>
                                         <div class="widget-content">
                                             <ul class="list">
-                                                <li><a href="{{ route('service') }}">Carpentry Works</a></li>
+                                                <li><a href="{{ route('service') }}">POP Celling Works</a></li>
+                                                <li><a href="{{ route('service') }}">Painting Works</a></li>
+                                                <li><a href="{{ route('service') }}">Furniture Works</a></li>
                                                 <li><a href="{{ route('service') }}">Plumbing Works</a></li>
                                                 <li><a href="{{ route('service') }}">Glass Works</a></li>
                                                 <li><a href="{{ route('service') }}">Renovation</a></li>
@@ -238,14 +240,17 @@
                                                 <li><a href="tel:+91 9663605853" class="contact-number">+91
                                                         9663605853</a></li>
                                                 <li>
-                                                    <a href="https://maps.google.com/?q=NO+74+5th+Cross+Narayanpura+Bengaluru+560016"
+                                                    <a href="https://maps.google.com/?q=SANJEEVANNA+AND+COMPANY+NO+193+P16+SRIRAMA+ROAD+NATUREBLISS+LAYOUT+BIDARAHALLI+560049"
                                                         target="_blank">
-                                                        No. 74, 5th Cross, Narayanpura, Bengaluru, 29-Karnataka - 560016
+                                                        SANJEEVANNA AND COMPANY, No. 193/P16, Srirama Road,
+                                                        Naturebliss Layout, Bidarahalli, Landmark: Opp. Karnataka
+                                                        Housing Board Qtrs,
+                                                        Bengaluru, Karnataka - 560049
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="mailto:sanjeevanna.co@gmail.com">
-                                                        sanjeevanna.co@gmail.com
+                                                    <a href="mailto:sanjeevanna.blr@gmail.com">
+                                                        sanjeevanna.blr@gmail.com
                                                     </a>
                                                 </li>
                                             </ul>
@@ -313,7 +318,8 @@
                         <div class="pull-left">
                             <div class="copyright">
                                 &copy; Copyright {{ date('Y') }} Sanjeevanna and Company Enterprises. All Rights
-                                Reserved.
+                                Reserved. Developed By <a href="https://www.thiven.com/" target="_blank"
+                                    style="text-decoration: none;color:white;">ThiVen</a>
                             </div>
                         </div>
                         <div class="pull-right">
@@ -355,7 +361,7 @@
                     <li><a href="#">Electrical Works</a></li>
                     <li><a href="#">Painting Works</a></li>
                     <li><a href="#">Glass Works</a></li>
-                    <li><a href="#">Carpentry Works</a></li>
+                    <li><a href="#">Furniture Works</a></li>
                     <li><a href="#">Plumbing Works</a></li>
                 </ul>
             </div>

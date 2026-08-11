@@ -33,7 +33,7 @@
 							<p>
 								At Sanjeevanna and Company Enterprises, we specialize in complete renovation and interior
 								solutions for residential, office, and commercial spaces. Our services include POP false
-								ceiling works, renovation, electrical, painting, glass, carpentry, and plumbing works, all
+								ceiling works, renovation, electrical, painting, glass, furniture, and plumbing works, all
 								executed with precision and quality.
 							</p>
 
@@ -328,7 +328,7 @@
 								<ul style="list-style:none;padding:0;margin:0;line-height:2.4;">
 									<li><i class="fa fa-check-circle" style="color:#d4a14a;margin-right:10px;"></i>Glass
 										Works</li>
-									<li><i class="fa fa-check-circle" style="color:#d4a14a;margin-right:10px;"></i>Carpentry
+									<li><i class="fa fa-check-circle" style="color:#d4a14a;margin-right:10px;"></i>Furniture
 										Works</li>
 									<li><i class="fa fa-check-circle" style="color:#d4a14a;margin-right:10px;"></i>Plumbing
 										Works</li>
@@ -352,7 +352,7 @@
 			<h2>Think Renovation. Think Sanjeevanna & Company</h2>
 			<div class="text">
 				We transform residential, office, and commercial spaces with quality renovation, POP false ceiling,
-				electrical, painting, glass, carpentry, and plumbing solutions.
+				electrical, painting, glass, Furniture, and plumbing solutions.
 			</div>
 			<a href="{{ route('contact') }}" class="theme-btn btn-style-two"><span class="txt">contact us</span></a>
 		</div>
