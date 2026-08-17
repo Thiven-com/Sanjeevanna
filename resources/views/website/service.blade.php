@@ -88,7 +88,7 @@
 					<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
-									src="{{asset('website')}}/images/rocr.png" alt="" style="width:100%;
+									src="{{asset('website')}}/images/fullyreno.png" alt="" style="width:100%;
 									height:263px;
 									object-fit:cover;
 									opacity:1 !important;
@@ -117,7 +117,7 @@
 					<div class="inner-box wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
-									src="{{asset('website')}}/images/elecwor.png" alt="" style="width:100%;
+									src="{{asset('website')}}/images/elec.png" alt="" style="width:100%;
 									height:263px;
 									object-fit:cover;
 									opacity:1 !important;
@@ -142,7 +142,7 @@
 					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
-									src="{{asset('website')}}/images/paiwork.png" alt="" style="width:100%;
+									src="{{asset('website')}}/images/paint.png" alt="" style="width:100%;
 									height:263px;
 									object-fit:cover;
 									opacity:1 !important;
@@ -167,7 +167,7 @@
 					<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
-									src="{{asset('website')}}/images/glaswo.png" alt="" style="width:100%;
+									src="{{asset('website')}}/images/glass1.png" alt="" style="width:100%;
 									height:263px;
 									object-fit:cover;
 									opacity:1 !important;
@@ -192,7 +192,7 @@
 					<div class="inner-box wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
-									src="{{asset('website')}}/images/carpwor.png" alt="" style="width:100%;
+									src="{{asset('website')}}/images/furni.png" alt="" style="width:100%;
 									height:263px;
 									object-fit:cover;
 									opacity:1 !important;
@@ -201,12 +201,12 @@
 									display:block;"></a>
 						</div>
 						<div class="lower-content">
-							<h3><a href="#">Carpentry Works</a></h3>
+							<h3><a href="#">Furniture Works</a></h3>
 							<div class="text">
-								We provide expert carpentry services, including custom furniture, doors, windows,
+								We provide expert furniture services, including custom furniture, doors, windows,
 								cabinets, wardrobes, and woodwork with quality craftsmanship.
 							</div>
-							<a href="javascript:void(0);" class="enquiry-now" onclick="openModal('Carpentry Works')">Enquiry
+							<a href="javascript:void(0);" class="enquiry-now" onclick="openModal('Furniture Works')">Enquiry
 								Now</a>
 						</div>
 					</div>
@@ -217,7 +217,7 @@
 					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
-									src="{{asset('website')}}/images/plumbwor.png" alt="" style="width:100%;
+									src="{{asset('website')}}/images/plum.png" alt="" style="width:100%;
 									height:263px;
 									object-fit:cover;
 									opacity:1 !important;
