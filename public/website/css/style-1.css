@@ -862,7 +862,7 @@ img{
 	width:100%;
 	top: 0;
 	z-index:5;
-	background-color:rgba(243, 239, 239, 0.136);
+	background-color:rgba(243, 239, 239, 0.974);
 }
 
 .header-style-one .header-upper{
@@ -2331,7 +2331,7 @@ img{
 
 .main-footer{
 	position:relative;
-	background-color:#242424;
+	background-color:#fffdfd;
 }
 
 .main-footer .widgets-section{
@@ -2348,7 +2348,7 @@ img{
 	position:relative;
 	font-size:20px;
 	font-weight:400;
-	color:#ffffff;
+	color:#38414a;
 	padding-bottom:16px;
 	margin-bottom:20px;
 	text-transform:capitalize;
@@ -2375,7 +2375,7 @@ img{
 
 .main-footer .logo-widget .text{
 	position:relative;
-	color:#a8a8a8;
+	color:#38414a;
 	font-size:14px;
 	font-weight:400;
 	padding-right:60px;
@@ -2401,7 +2401,7 @@ img{
 	text-align:center;
 	border-radius:50%;
 	line-height:34px;
-	color:#ffffff;
+	color:#38414a;
 	font-weight:400;
 	display:inline-block;
 	border:1px solid rgba(255,255,255,0.30);
@@ -2434,7 +2434,7 @@ img{
 
 .links-widget .list li a{
 	position:relative;
-	color:#a8a8a8;
+	color:#38414a;
 	font-size:15px;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -2444,7 +2444,7 @@ img{
 }
 
 .links-widget .list li a:hover{
-	color:#ffffff;
+	color:#f0c153;
 }
 
 /* Contact Widget */
@@ -2560,7 +2560,7 @@ img{
 .main-footer .footer-bottom{
 	position:relative;
 	padding:25px 0px;
-	border-top:1px solid rgba(255,255,255,0.10);
+	border-top:1px solid rgba(0, 0, 0, 0.175);
 }
 
 .main-footer .footer-bottom .copyright{

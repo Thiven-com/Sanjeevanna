@@ -170,9 +170,9 @@
                                     <div class="footer-widget logo-widget">
                                         <div class="logo">
                                             <a href="{{ route('home') }}"><img
-                                                    src="{{ asset('website') }}/images/sanjeevlogo (1).png" alt=""></a>
+                                                    src="{{ asset('website') }}/images/sanjeevlogo.png" alt="" style="width:250px; margin-top: -30px;"></a>
                                         </div><br>
-                                        <div class="text">
+                                        <div class="text" style="    margin-bottom: 20px;margin-top: -40px;">
                                             Sanjeevanna and Company Enterprises provides complete renovation solutions,
                                             including POP false ceiling, electrical, painting, glass, furniture, and
                                             plumbing works for residential, office, and commercial spaces.
@@ -317,9 +317,9 @@
                     <div class="footer-bottom clearfix">
                         <div class="pull-left">
                             <div class="copyright">
-                                &copy; Copyright {{ date('Y') }} Sanjeevanna and Company Enterprises. All Rights
+                                & Copyright {{ date('Y') }} Sanjeevanna and Company Enterprises. All Rights
                                 Reserved. Developed By <a href="https://www.thiven.com/" target="_blank"
-                                    style="text-decoration: none;color:white;">ThiVen</a>
+                                    style="text-decoration: none;color: #38414a;">ThiVen</a>
                             </div>
                         </div>
                         <div class="pull-right">
