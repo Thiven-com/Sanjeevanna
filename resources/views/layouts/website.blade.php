@@ -53,8 +53,8 @@
                         <!--Info-->
                         <div class="logo-outer">
                             <div class="logo"><a href="{{ route('home') }}"><img
-                                        src="{{ asset('website') }}/images/sanjeevlogo (1).png" alt="" title=""
-                                        style="margin-top: 10px;"></a>
+                                        src="{{ asset('website') }}/images/sanjeevlogo1.png" alt="" title=""
+                                        style="margin-top: 10px;  width: 60px ; "></a>
                             </div>
                         </div>
 
@@ -76,36 +76,36 @@
                                     <ul class="navigation clearfix">
                                         <li>
                                             <a href="{{ route('home') }}"
-                                                style="{{ Request::routeIs('home') ? 'color:#c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color:#ffffff;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
+                                                style="{{ Request::routeIs('home') ? 'color: #c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color: #060606;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
                                                 onmouseover="this.style.color='#c59d5f'"
-                                                onmouseout="this.style.color='{{ Request::routeIs('home') ? '#c59d5f' : '#ffffff' }}'">
+                                                onmouseout="this.style.color='{{ Request::routeIs('home') ? '#c59d5f' : '#060606' }}'">
                                                 Home
                                             </a>
                                         </li>
 
                                         <li>
                                             <a href="{{ route('about') }}"
-                                                style="{{ Request::routeIs('about') ? 'color:#c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color:#ffffff;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
+                                                style="{{ Request::routeIs('about') ? 'color: #c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color : #060606;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
                                                 onmouseover="this.style.color='#c59d5f'"
-                                                onmouseout="this.style.color='{{ Request::routeIs('about') ? '#c59d5f' : '#ffffff' }}'">
+                                                onmouseout="this.style.color='{{ Request::routeIs('about') ? '#c59d5f' : '#060606' }}'">
                                                 About Us
                                             </a>
                                         </li>
 
                                         <li>
                                             <a href="{{ route('service') }}"
-                                                style="{{ Request::routeIs('service') ? 'color:#c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color:#ffffff;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
+                                                style="{{ Request::routeIs('service') ? 'color: #c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color: #060606;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
                                                 onmouseover="this.style.color='#c59d5f'"
-                                                onmouseout="this.style.color='{{ Request::routeIs('service') ? '#c59d5f' : '#ffffff' }}'">
+                                                onmouseout="this.style.color='{{ Request::routeIs('service') ? '#c59d5f' : '#060606' }}'">
                                                 Services
                                             </a>
                                         </li>
 
                                         <li>
                                             <a href="{{ route('contact') }}"
-                                                style="{{ Request::routeIs('contact') ? 'color:#c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color:#ffffff;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
+                                                style="{{ Request::routeIs('contact') ? 'color: #c59d5f;font-size:17px;font-weight:700;padding:10px 18px;text-decoration:none;' : 'color: #060606;font-size:17px;font-weight:600;padding:10px 18px;text-decoration:none;' }}"
                                                 onmouseover="this.style.color='#c59d5f'"
-                                                onmouseout="this.style.color='{{ Request::routeIs('contact') ? '#c59d5f' : '#ffffff' }}'">
+                                                onmouseout="this.style.color='{{ Request::routeIs('contact') ? '#c59d5f' : '#060606' }}'">
                                                 Contact
                                             </a>
                                         </li>

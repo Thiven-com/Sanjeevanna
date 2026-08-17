@@ -62,7 +62,7 @@
 					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;">
-								<img src="{{ asset('website') }}/images/ceiling.png" alt="POP False Ceiling Works" style="width:100%;
+								<img src="{{ asset('website') }}/images/pop1.png" alt="POP False Ceiling Works" style="width:100%;
 										height:263px;
 										object-fit:cover;
 										opacity:1 !important;
