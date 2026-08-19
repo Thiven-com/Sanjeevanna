@@ -48,7 +48,7 @@
 
             <!-- Header Upper -->
             <div class="header-upper">
-                <div class="inner-container">
+                <div class="inner-container" style="background: #fff">
                     <div class="auto-container clearfix">
                         <!--Info-->
                         <div class="logo-outer">
@@ -130,9 +130,9 @@
                 <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="{{ route('home') }}"><img
-                                src="{{ asset('website') }}/images/sanjeevlogo (1).png"
-                                alt="Sanjeevanna and Company Enterprises" title=""></a></div>
+                    <div class="nav-logo" ><a href="{{ route('home') }}"><img
+                                src="{{ asset('website') }}/images/sanjeevlogo1.png"
+                                alt="Sanjeevanna and Company Enterprises" title="" style="width:70px;"></a></div>
                     <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
                     <!--Social Links-->
                     <div class="social-links">
@@ -193,7 +193,7 @@
                                         <div class="widget-content">
                                             <ul class="list">
                                                 <li><a href="{{ route('home') }}">Home</a></li>
-                                                <li><a href="{{ route('about') }}">About</a></li>
+                                                <li><a href="{{ route('about') }}">About Us</a></li>
                                                 <li><a href="{{ route('service') }}">Services</a></li>
                                                 <li><a href="{{ route('contact') }}">Contact</a></li>
                                                 <!-- <li><a href="#">Privacy Policy</a></li>

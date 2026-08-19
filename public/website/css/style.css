@@ -2787,7 +2787,7 @@ img{
 .services-section-two{
 	position:relative;
 	padding:90px 0px 70px;
-	background-color:#f2f0f8;
+	background-color:#eeeeee;
 }
 
 .service-block-two{
@@ -4854,6 +4854,9 @@ img{
 }
 
 .contact-form-section .form-column{
+	    margin-top: 20px;
+    background: black;
+    padding: 20px;
 	margin-bottom:20px;	
 }
 

@@ -24,23 +24,23 @@
 
 			@if(session('success'))
 				<div class="success-alert" style="background:#d4edda;
-																							color:#155724;
-																							border:1px solid #c3e6cb;
-																							padding:15px 20px;
-																							border-radius:8px;
-																							margin-bottom:20px;
-																							display:flex;
-																							justify-content:space-between;
-																							align-items:center;
-																							font-weight:600;">
+																									color:#155724;
+																									border:1px solid #c3e6cb;
+																									padding:15px 20px;
+																									border-radius:8px;
+																									margin-bottom:20px;
+																									display:flex;
+																									justify-content:space-between;
+																									align-items:center;
+																									font-weight:600;">
 
 					<span>✅ {{ session('success') }}</span>
 
 					<button type="button" onclick="this.parentElement.remove();" style="background:none;
-																																   border:none;
-																															   font-size:22px;
-																															   color:#155724;
-																															   cursor:pointer;">
+																																		   border:none;
+																																	   font-size:22px;
+																																	   color:#155724;
+																																	   cursor:pointer;">
 						&times;
 					</button>
 				</div>
@@ -55,20 +55,19 @@
 				</div>
 			</div>
 
-			<div class="row clearfix">
-
+			<div class="row clearfix" style="display:flex;flex-wrap:wrap;justify-content:center;">
 				<!-- Service Block -->
 				<div class="service-block-three col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;">
 								<img src="{{ asset('website') }}/images/pop1.png" alt="POP False Ceiling Works" style="width:100%;
-										height:263px;
-										object-fit:cover;
-										opacity:1 !important;
-										filter:brightness(100%) !important;
-										transition:transform .4s ease;
-										display:block;">
+											height:263px;
+											object-fit:cover;
+											opacity:1 !important;
+											filter:brightness(100%) !important;
+											transition:transform .4s ease;
+											display:block;">
 							</a>
 						</div>
 						<div class="lower-content">
@@ -89,12 +88,12 @@
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
 									src="{{asset('website')}}/images/fullyreno.png" alt="" style="width:100%;
-									height:263px;
-									object-fit:cover;
-									opacity:1 !important;
-									filter:brightness(100%) !important;
-									transition:transform .4s ease;
-									display:block;"></a>
+										height:263px;
+										object-fit:cover;
+										opacity:1 !important;
+										filter:brightness(100%) !important;
+										transition:transform .4s ease;
+										display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Renovation</a></h3>
@@ -118,12 +117,12 @@
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
 									src="{{asset('website')}}/images/elec.png" alt="" style="width:100%;
-									height:263px;
-									object-fit:cover;
-									opacity:1 !important;
-									filter:brightness(100%) !important;
-									transition:transform .4s ease;
-									display:block;"></a>
+										height:263px;
+										object-fit:cover;
+										opacity:1 !important;
+										filter:brightness(100%) !important;
+										transition:transform .4s ease;
+										display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Electrical Works</a></h3>
@@ -143,12 +142,12 @@
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
 									src="{{asset('website')}}/images/paint.png" alt="" style="width:100%;
-									height:263px;
-									object-fit:cover;
-									opacity:1 !important;
-									filter:brightness(100%) !important;
-									transition:transform .4s ease;
-									display:block;"></a>
+										height:263px;
+										object-fit:cover;
+										opacity:1 !important;
+										filter:brightness(100%) !important;
+										transition:transform .4s ease;
+										display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Painting Works</a></h3>
@@ -168,12 +167,12 @@
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
 									src="{{asset('website')}}/images/glass1.png" alt="" style="width:100%;
-									height:263px;
-									object-fit:cover;
-									opacity:1 !important;
-									filter:brightness(100%) !important;
-									transition:transform .4s ease;
-									display:block;"></a>
+										height:263px;
+										object-fit:cover;
+										opacity:1 !important;
+										filter:brightness(100%) !important;
+										transition:transform .4s ease;
+										display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Glass Works</a></h3>
@@ -193,12 +192,12 @@
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
 									src="{{asset('website')}}/images/furni.png" alt="" style="width:100%;
-									height:263px;
-									object-fit:cover;
-									opacity:1 !important;
-									filter:brightness(100%) !important;
-									transition:transform .4s ease;
-									display:block;"></a>
+										height:263px;
+										object-fit:cover;
+										opacity:1 !important;
+										filter:brightness(100%) !important;
+										transition:transform .4s ease;
+										display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Furniture Works</a></h3>
@@ -218,12 +217,12 @@
 						<div class="image">
 							<a href="#" style="display:block; overflow:hidden;"><img
 									src="{{asset('website')}}/images/plum.png" alt="" style="width:100%;
-									height:263px;
-									object-fit:cover;
-									opacity:1 !important;
-									filter:brightness(100%) !important;
-									transition:transform .4s ease;
-									display:block;"></a>
+										height:263px;
+										object-fit:cover;
+										opacity:1 !important;
+										filter:brightness(100%) !important;
+										transition:transform .4s ease;
+										display:block;"></a>
 						</div>
 						<div class="lower-content">
 							<h3><a href="#">Plumbing Works</a></h3>
@@ -240,19 +239,19 @@
 
 				<!-- Service Block -->
 				<!-- <div class="service-block-three col-lg-4 col-md-6 col-sm-12">
-																															<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
-																																<div class="image">
-																																	<a href="commercial-interior-1.html"><img
-																																			src="{{asset('website')}}/images/resource/service-15-1.jpg" alt=""></a>
+																																<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
+																																	<div class="image">
+																																		<a href="commercial-interior-1.html"><img
+																																				src="{{asset('website')}}/images/resource/service-15-1.jpg" alt=""></a>
+																																	</div>
+																																	<div class="lower-content">
+																																		<h3><a href="commercial-interior-1.html">False Celling Designs</a></h3>
+																																		<div class="text">Override the digital divide with additional clickthroughs from DevOps.
+																																			Nanotech Nology imme rsion along the information highway will close the loop.</div>
+																																		<a href="commercial-interior-1.html" class="read-more">Read more</a>
+																																	</div>
 																																</div>
-																																<div class="lower-content">
-																																	<h3><a href="commercial-interior-1.html">False Celling Designs</a></h3>
-																																	<div class="text">Override the digital divide with additional clickthroughs from DevOps.
-																																		Nanotech Nology imme rsion along the information highway will close the loop.</div>
-																																	<a href="commercial-interior-1.html" class="read-more">Read more</a>
-																																</div>
-																															</div>
-																														</div> -->
+																															</div> -->
 
 			</div>
 
@@ -270,13 +269,13 @@
 				<h2>Service Enquiry</h2>
 
 				<h2 id="serviceName" style="
-												display:inline-block;
-												color:#000;
-												padding:8px;
-												border-radius:6px;
-												font-size:18px;
-												font-weight:600;
-												margin:0 15px;">
+													display:inline-block;
+													color:#000;
+													padding:8px;
+													border-radius:6px;
+													font-size:18px;
+													font-weight:600;
+													margin:0 15px;">
 					Selected Service
 				</h2>
 

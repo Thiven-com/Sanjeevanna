@@ -115,20 +115,20 @@
 
 				<!-- Service Block -->
 				<!-- <div class="service-block col-lg-4 col-md-6 col-sm-12">
-								<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-									<div class="image">
-										<a href="#"><img src="{{ asset('website') }}/images/electri.png" alt=""></a>
-									</div>
-									<div class="lower-content">
-										<h3><a href="#">Electrical Solutions</a></h3>
-										<div class="text">
-											We provide safe, efficient, and reliable electrical installation, wiring, maintenance, and
-											repair services for residential, office, and commercial spaces.
+									<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+										<div class="image">
+											<a href="#"><img src="{{ asset('website') }}/images/electri.png" alt=""></a>
 										</div>
+										<div class="lower-content">
+											<h3><a href="#">Electrical Solutions</a></h3>
+											<div class="text">
+												We provide safe, efficient, and reliable electrical installation, wiring, maintenance, and
+												repair services for residential, office, and commercial spaces.
+											</div>
 
+										</div>
 									</div>
-								</div>
-							</div> -->
+								</div> -->
 
 				<!-- Service Block -->
 				<div class="service-block col-lg-4 col-md-6 col-sm-12">
@@ -155,7 +155,7 @@
 							<a href="#"><img src="{{ asset('website') }}/images/fullyreno.png" alt=""></a>
 						</div>
 						<div class="lower-content">
-							<h3><a href="#">Renovation <br> (Residential, Office & Commercial)</a></h3>
+							<h3><a href="#">Renovation </a></h3>
 							<div class="text">
 								From structural upgrades to final finishes, we deliver reliable renovation solutions
 								tailored to residential, office, and commercial spaces.
@@ -483,8 +483,8 @@
 
 			<!-- More Projects -->
 			<!-- <div class="more-projects">
-																																																																<a href="projects-classic-1.html" class="projects">View All Projects</a>
-																																																															</div> -->
+																																																																	<a href="projects-classic-1.html" class="projects">View All Projects</a>
+																																																																</div> -->
 
 		</div>
 	</section>
@@ -541,97 +541,97 @@
 
 	<!-- Testimonial Section -->
 	<!-- <section class="testimonial-section">
-															<div class="auto-container">
+																<div class="auto-container">
 
-																<div class="sec-title-two centered">
-																	<h2>What our customers says</h2>
-																	<div class="title-text">Thousands of people done interior</div>
+																	<div class="sec-title-two centered">
+																		<h2>What our customers says</h2>
+																		<div class="title-text">Thousands of people done interior</div>
+																	</div>
+
+																	<div class="testimonial-carousel owl-carousel owl-theme">
+
+
+																		<div class="testimonial-block">
+																			<div class="inner-box">
+																				<div class="content">
+																					<div class="image-outer">
+																						<div class="image">
+																							<img src="{{ asset('website') }}/images/resource/author-1-1.jpg" alt="">
+																						</div>
+																					</div>
+																					<h3>Anita Reddy</h3>
+																					<div class="title">Professional Team & Outstanding Results</div>
+																					<div class="text">
+																						From planning to execution, every detail was handled with care and professionalism. The
+																						final outcome exceeded our expectations, and our space looks elegant and modern.
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+
+
+																		<div class="testimonial-block">
+																			<div class="inner-box">
+																				<div class="content">
+																					<div class="image-outer">
+																						<div class="image">
+																							<img src="{{ asset('website') }}/images/resource/author-2-1.jpg" alt="">
+																						</div>
+																					</div>
+																					<h3>Vikram Patel</h3>
+																					<div class="title">Beautiful Designs with Excellent Service</div>
+																					<div class="text">
+																						The team at Sanjeevanna and Company Enterprises understood our vision perfectly and
+																						delivered a stunning interior that blends style, comfort, and functionality. Highly
+																						recommended!
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+
+
+																		<div class="testimonial-block">
+																			<div class="inner-box">
+																				<div class="content">
+																					<div class="image-outer">
+																						<div class="image">
+																							<img src="{{ asset('website') }}/images/resource/author-1-1.jpg" alt="">
+																						</div>
+																					</div>
+																					<h3>Priya Sharma</h3>
+																					<div class="title">Exceptional Interior Design & Quality Work</div>
+																					<div class="text">
+																						Sanjeevanna and Company Enterprises transformed our space with creative designs and
+																						outstanding craftsmanship. The team was professional, delivered on time, and exceeded our
+																						expectations.
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+
+
+																		<div class="testimonial-block">
+																			<div class="inner-box">
+																				<div class="content">
+																					<div class="image-outer">
+																						<div class="image">
+																							<img src="{{ asset('website') }}/images/resource/author-2-1.jpg" alt="">
+																						</div>
+																					</div>
+																					<h3> Ramesh Kumar</h3>
+																					<div class="title">Our Dream Home Became a Reality</div>
+																					<div class="text">
+																						We are delighted with the beautiful interiors designed by Sanjeevanna and Company
+																						Enterprises. Their attention to detail, quality materials, and personalized approach made
+																						the entire experience seamless.
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+
+																	</div>
 																</div>
-
-																<div class="testimonial-carousel owl-carousel owl-theme">
-
-
-																	<div class="testimonial-block">
-																		<div class="inner-box">
-																			<div class="content">
-																				<div class="image-outer">
-																					<div class="image">
-																						<img src="{{ asset('website') }}/images/resource/author-1-1.jpg" alt="">
-																					</div>
-																				</div>
-																				<h3>Anita Reddy</h3>
-																				<div class="title">Professional Team & Outstanding Results</div>
-																				<div class="text">
-																					From planning to execution, every detail was handled with care and professionalism. The
-																					final outcome exceeded our expectations, and our space looks elegant and modern.
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-
-
-																	<div class="testimonial-block">
-																		<div class="inner-box">
-																			<div class="content">
-																				<div class="image-outer">
-																					<div class="image">
-																						<img src="{{ asset('website') }}/images/resource/author-2-1.jpg" alt="">
-																					</div>
-																				</div>
-																				<h3>Vikram Patel</h3>
-																				<div class="title">Beautiful Designs with Excellent Service</div>
-																				<div class="text">
-																					The team at Sanjeevanna and Company Enterprises understood our vision perfectly and
-																					delivered a stunning interior that blends style, comfort, and functionality. Highly
-																					recommended!
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-
-
-																	<div class="testimonial-block">
-																		<div class="inner-box">
-																			<div class="content">
-																				<div class="image-outer">
-																					<div class="image">
-																						<img src="{{ asset('website') }}/images/resource/author-1-1.jpg" alt="">
-																					</div>
-																				</div>
-																				<h3>Priya Sharma</h3>
-																				<div class="title">Exceptional Interior Design & Quality Work</div>
-																				<div class="text">
-																					Sanjeevanna and Company Enterprises transformed our space with creative designs and
-																					outstanding craftsmanship. The team was professional, delivered on time, and exceeded our
-																					expectations.
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-
-
-																	<div class="testimonial-block">
-																		<div class="inner-box">
-																			<div class="content">
-																				<div class="image-outer">
-																					<div class="image">
-																						<img src="{{ asset('website') }}/images/resource/author-2-1.jpg" alt="">
-																					</div>
-																				</div>
-																				<h3> Ramesh Kumar</h3>
-																				<div class="title">Our Dream Home Became a Reality</div>
-																				<div class="text">
-																					We are delighted with the beautiful interiors designed by Sanjeevanna and Company
-																					Enterprises. Their attention to detail, quality materials, and personalized approach made
-																					the entire experience seamless.
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-
-																</div>
-															</div>
-														</section> -->
+															</section> -->
 	<!-- End Testimonial Section -->
 
 	<!-- Featured Section -->
@@ -728,86 +728,108 @@
 
 	<!-- News Section -->
 	<!-- <section class="news-section">
-											<div class="auto-container">
+												<div class="auto-container">
 
-												<div class="sec-title">
-													<h2>Get Inspired by Our Interior Design Ideas</h2>
-													<div class="text">
-														Discover the latest interior design trends, space-saving solutions, expert tips, and creative ideas to
-														transform your home and workspace.
+													<div class="sec-title">
+														<h2>Get Inspired by Our Interior Design Ideas</h2>
+														<div class="text">
+															Discover the latest interior design trends, space-saving solutions, expert tips, and creative ideas to
+															transform your home and workspace.
+														</div>
 													</div>
+
+													<div class="row clearfix">
+
+														<div class="news-block col-lg-4 col-md-6 col-sm-12">
+															<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+																<div class="image">
+																	<a href="#"><img src="{{ asset('website') }}/images/resource/news-1-1.jpg" alt=""></a>
+																</div>
+																<div class="lower-content">
+																	<ul class="post-meta">
+																		<li>By <span>Sanjeevanna & Company</span></li>
+																		<li>Modular Kitchen</li>
+																	</ul>
+																	<h3><a href="#">15 Vastu ideas for the main door emphasizes on every par
+																			...</a></h3>
+																	<a href="#" class="read-more">Read more <span class="icon flaticon-right-arrow-1"></span></a>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="news-block col-lg-4 col-md-6 col-sm-12">
+															<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+																<div class="image">
+																	<a href="#"><img src="{{ asset('website') }}/images/resource/news-2-1.jpg" alt=""></a>
+																</div>
+																<div class="lower-content">
+																	<ul class="post-meta">
+																		<li>By <span>Sanjeevanna & Company</span></li>
+																		<li>Interior, awesome</li>
+																	</ul>
+																	<h3><a href="#">Storage ideas for the bedroom by interior designers ...</a>
+																	</h3>
+																	<a href="#" class="read-more">Read more <span class="icon flaticon-right-arrow-1"></span></a>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="news-block col-lg-4 col-md-6 col-sm-12">
+															<div class="inner-box wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
+																<div class="image">
+																	<a href="#"><img src="{{ asset('website') }}/images/resource/news-3-1.jpg" alt=""></a>
+																</div>
+																<div class="lower-content">
+																	<ul class="post-meta">
+																		<li>By <span>Sanjeevanna & Company</span></li>
+																		<li>Residential Interiors</li>
+																	</ul>
+																	<h3><a href="#">Kids bedroom design ideas by interior designers in NY</a></h3>
+																	<a href="#" class="read-more">Read more <span class="icon flaticon-right-arrow-1"></span></a>
+																</div>
+															</div>
+														</div>
+
+													</div>
+
 												</div>
-
-												<div class="row clearfix">
-
-													<div class="news-block col-lg-4 col-md-6 col-sm-12">
-														<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-															<div class="image">
-																<a href="#"><img src="{{ asset('website') }}/images/resource/news-1-1.jpg" alt=""></a>
-															</div>
-															<div class="lower-content">
-																<ul class="post-meta">
-																	<li>By <span>Sanjeevanna & Company</span></li>
-																	<li>Modular Kitchen</li>
-																</ul>
-																<h3><a href="#">15 Vastu ideas for the main door emphasizes on every par
-																		...</a></h3>
-																<a href="#" class="read-more">Read more <span class="icon flaticon-right-arrow-1"></span></a>
-															</div>
-														</div>
-													</div>
-
-
-													<div class="news-block col-lg-4 col-md-6 col-sm-12">
-														<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
-															<div class="image">
-																<a href="#"><img src="{{ asset('website') }}/images/resource/news-2-1.jpg" alt=""></a>
-															</div>
-															<div class="lower-content">
-																<ul class="post-meta">
-																	<li>By <span>Sanjeevanna & Company</span></li>
-																	<li>Interior, awesome</li>
-																</ul>
-																<h3><a href="#">Storage ideas for the bedroom by interior designers ...</a>
-																</h3>
-																<a href="#" class="read-more">Read more <span class="icon flaticon-right-arrow-1"></span></a>
-															</div>
-														</div>
-													</div>
-
-
-													<div class="news-block col-lg-4 col-md-6 col-sm-12">
-														<div class="inner-box wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
-															<div class="image">
-																<a href="#"><img src="{{ asset('website') }}/images/resource/news-3-1.jpg" alt=""></a>
-															</div>
-															<div class="lower-content">
-																<ul class="post-meta">
-																	<li>By <span>Sanjeevanna & Company</span></li>
-																	<li>Residential Interiors</li>
-																</ul>
-																<h3><a href="#">Kids bedroom design ideas by interior designers in NY</a></h3>
-																<a href="#" class="read-more">Read more <span class="icon flaticon-right-arrow-1"></span></a>
-															</div>
-														</div>
-													</div>
-
-												</div>
-
-											</div>
-										</section> -->
+											</section> -->
 	<!-- End News Section -->
 
 	<!-- Call To Action Section -->
-	<section class="call-to-action-section" style="background-image: url({{ asset('website') }}/images/background/1-1.jpg)">
-		<div class="auto-container">
-			<h2>Think Renovation. Think Sanjeevanna & Company</h2>
-			<div class="text">
-				We transform residential, office, and commercial spaces with quality renovation, POP false ceiling,
-				electrical, painting, glass, furniture, and plumbing solutions.
+	<section class="call-to-action-section"
+		style="background-image:url('{{ asset('website/images/background/1-1.jpg') }}');background-size:cover;background-position:center;background-repeat:no-repeat;position:relative;min-height:660px;display:flex;align-items:center;padding:70px 0;">
+
+		<div class="auto-container" style="position:relative;z-index:1;width:100%;">
+
+			<div style="max-width:850px;transform:translateY(-35px);">
+
+				<h2
+					style="color:#fff;font-size:52px;line-height:1.12;font-weight:700;max-width:900px;margin:0 0 30px;letter-spacing:-1px;">
+					Think Renovation. Think Sanjeevanna &amp; Company
+				</h2>
+
+				<div
+					style="width:620px;max-width:100%;padding:25px 30px;margin-bottom:32px;background:rgba(0,0,0,0.58);border:1px solid rgba(255,255,255,0.35);box-shadow:0 10px 30px rgba(0,0,0,0.25);">
+
+					<div class="text" style="color:#fff;font-size:21px;line-height:1.65;margin:0;">
+						We transform residential, office, and commercial spaces with quality renovation,
+						POP false ceiling, electrical, painting, glass, furniture, and plumbing solutions.
+					</div>
+
+				</div>
+
+				<a href="{{ route('contact') }}" class="theme-btn btn-style-two"
+					style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;min-height:62px;background:#fff;color:#111;border:none;text-transform:uppercase;letter-spacing:2px;">
+					<span class="txt">Contact Us</span>
+				</a>
+
 			</div>
-			<a href="{{ route('contact') }}" class="theme-btn btn-style-two"><span class="txt">contact us</span></a>
+
 		</div>
+
 	</section>
 	<!-- End Call To Action Section -->
 

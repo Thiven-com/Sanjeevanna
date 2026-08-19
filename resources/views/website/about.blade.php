@@ -347,16 +347,36 @@
 	<!-- End Mission Section -->
 
 	<!-- Call To Action Section -->
-	<section class="call-to-action-section" style="background-image: url({{ asset('website') }}/images/background/6-1.jpg)">
-		<div class="auto-container">
-			<h2>Think Renovation. Think Sanjeevanna & Company</h2>
-			<div class="text">
-				We transform residential, office, and commercial spaces with quality renovation, POP false ceiling,
-				electrical, painting, glass, Furniture, and plumbing solutions.
-			</div>
-			<a href="{{ route('contact') }}" class="theme-btn btn-style-two"><span class="txt">contact us</span></a>
-		</div>
-	</section>
+	<section class="call-to-action-section" style="background-image:url('{{ asset('website/images/background/1-1.jpg') }}');background-size:cover;background-position:center;background-repeat:no-repeat;position:relative;min-height:660px;display:flex;align-items:center;padding:70px 0;">
+
+    <div class="auto-container" style="position:relative;z-index:1;width:100%;">
+
+        <div style="max-width:850px;transform:translateY(-35px);">
+
+            <h2 style="color:#fff;font-size:52px;line-height:1.12;font-weight:700;max-width:900px;margin:0 0 30px;letter-spacing:-1px;">
+                Think Renovation. Think Sanjeevanna &amp; Company
+            </h2>
+
+            <div style="width:620px;max-width:100%;padding:25px 30px;margin-bottom:32px;background:rgba(0,0,0,0.58);border:1px solid rgba(255,255,255,0.35);box-shadow:0 10px 30px rgba(0,0,0,0.25);">
+
+                <div class="text" style="color:#fff;font-size:21px;line-height:1.65;margin:0;">
+                    We transform residential, office, and commercial spaces with quality renovation,
+                    POP false ceiling, electrical, painting, glass, furniture, and plumbing solutions.
+                </div>
+
+            </div>
+
+            <a href="{{ route('contact') }}"
+               class="theme-btn btn-style-two"
+               style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;min-height:62px;background:#fff;color:#111;border:none;text-transform:uppercase;letter-spacing:2px;">
+                <span class="txt">Contact Us</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
 	<!-- End Call To Action Section -->
 
 
