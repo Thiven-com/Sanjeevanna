@@ -130,7 +130,7 @@
                 <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
                 <nav class="menu-box">
-                    <div class="nav-logo" ><a href="{{ route('home') }}"><img
+                    <div class="nav-logo"><a href="{{ route('home') }}"><img
                                 src="{{ asset('website') }}/images/sanjeevlogo1.png"
                                 alt="Sanjeevanna and Company Enterprises" title="" style="width:70px;"></a></div>
                     <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
@@ -170,7 +170,8 @@
                                     <div class="footer-widget logo-widget">
                                         <div class="logo">
                                             <a href="{{ route('home') }}"><img
-                                                    src="{{ asset('website') }}/images/sanjeevlogo.png" alt="" style="width:250px; margin-top: -30px;"></a>
+                                                    src="{{ asset('website') }}/images/sanjeevlogo.png" alt=""
+                                                    style="width:250px; margin-top: -30px;"></a>
                                         </div><br>
                                         <div class="text" style="    margin-bottom: 20px;margin-top: -40px;">
                                             Sanjeevanna and Company Enterprises provides complete renovation solutions,
@@ -252,6 +253,10 @@
                                                     <a href="mailto:sanjeevanna.blr@gmail.com">
                                                         sanjeevanna.blr@gmail.com
                                                     </a>
+                                               
+                                                    <a href="mailto:sales@sanjeevanna.com">
+                                                        sales@sanjeevanna.com
+                                                    </a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -322,9 +327,9 @@
                                     style="text-decoration: none;color: #38414a;">ThiVen</a>
                             </div>
                         </div>
-                        <div class="pull-right">
+                        <!-- <div class="pull-right">
                             <a href="tel:+91 9663605853" class="purchase">Call Now</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
