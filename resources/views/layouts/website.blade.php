@@ -242,7 +242,7 @@
                                                 <li>
                                                     <a href="https://maps.google.com/?q=SANJEEVANNA+AND+COMPANY+NO+193+P16+SRIRAMA+ROAD+NATUREBLISS+LAYOUT+BIDARAHALLI+560049"
                                                         target="_blank">
-                                                        SANJEEVANNA AND COMPANY, No. 193/P16, Srirama Road,
+                                                        SANJEEVANNA AND COMPANY, <br>No. 193/P16, Srirama Road,
                                                         Naturebliss Layout, Bidarahalli, Landmark: Opp. Karnataka
                                                         Housing Board Qtrs,
                                                         Bengaluru, Karnataka - 560049
